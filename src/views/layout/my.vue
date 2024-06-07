@@ -1,6 +1,6 @@
 <template>
     <div class='App'>
-        <router-view></router-view>
+我的
     </div>
 </template>
 
@@ -8,6 +8,7 @@
 export default {
     data() {
         return {
+
         };
     },
     created() {
@@ -26,7 +27,5 @@ export default {
 </script>
 
 <style scoped lang="less">
-
-
 
 </style>

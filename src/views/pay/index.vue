@@ -1,17 +1,24 @@
 <template>
     <div class='App'>
-        <router-view></router-view>
+支付系统
+{{ userinfo }}
     </div>
 </template>
 
 <script>
+import { mapState } from 'vuex'
+
 export default {
     data() {
         return {
+
         };
     },
     created() {
 
+    },
+    computed:{
+    ...mapState('user',['userinfo'])
     },
     mounted() {
 
@@ -26,7 +33,5 @@ export default {
 </script>
 
 <style scoped lang="less">
-
-
 
 </style>
